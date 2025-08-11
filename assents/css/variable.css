@@ -1,0 +1,17 @@
+:root {
+    --cor-primary:#0D3A57;
+    --cor-primary-dark:#1B2243;
+    --cor-secondary:#F3D263;
+    --cor-dark: #000;
+    --cor-white:#ffffff;
+    --cor-grey:#999999;
+    --cor-grey-1:#666666;
+
+    --border-standard:8px;
+
+    --title-size:35px;
+    --subtitle-size:26px;
+
+    --margin-text:20px
+}
+

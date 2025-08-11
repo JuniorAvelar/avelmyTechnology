@@ -1,0 +1,65 @@
+.metrics-section {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.metrics-section-bg {
+    background: #0D3A57;
+
+    position: relative;
+    height: auto    ;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 40px 0;
+}
+
+.metrics-shape {
+    width: 100%;
+    position: absolute;
+    bottom: -35%;
+    left: 0;
+}
+
+.metrics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+
+.metrics-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--cor-secondary);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metrics-icon img {
+    width: 70px;
+}
+
+.metrics-title {
+    font-size: 50px;
+    color: var(--cor-white);
+    margin: 10px 0;
+}
+
+.metrics-description {
+    font-size: 20px;
+    color: var(--cor-white);
+    width: 150px;
+    text-align: center;
+    font-weight: 300;
+}
+

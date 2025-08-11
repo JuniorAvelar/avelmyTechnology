@@ -1,0 +1,145 @@
+
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 90px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-section h2 {
+    font-size: var(--title-size);
+    margin-bottom: var(--margin-text);
+}
+
+.portfolio-section>h3 {
+    font-size: var(--subtitle-size);
+    color: var(--cor-grey-1);
+    font-weight: 300;
+    margin-bottom: var(--margin-text);
+    width: 70%;
+    text-align: center;
+}
+
+.portifolio {
+    width: 72.7%;
+    height: 100%;
+    position: relative;
+}
+
+.portifolio-card {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+
+.portifolio-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    max-width: 72.5%;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.portifolio-buttons>.next, .portifolio-buttons>.prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--cor-secondary);
+    color: var(--cor-white);
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.portfolio-card-control {
+    display: flex;
+    gap: 10px;
+}
+
+
+.portifolio-card {
+    max-width: 350px;
+    height: 400px;
+    border-radius: 12px;
+    border: solid 2px var(--cor-primary);
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+    
+.img-project , .description-project {
+    width: 100%;
+    height: 50%;
+}
+
+.img-project img {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    object-fit: cover;
+}
+
+.description-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-inline: 20px;
+}
+
+.description-project h4 {
+    font-size: 20px;
+}
+
+.description-project p {
+    color: var(--cor-grey-1);
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.description-project a {
+    text-decoration: none;
+    color: var(--cor-primary);
+    transition: all 0.4s;
+}
+
+.description-project a:hover {
+    opacity: 0.8;
+}
+
+.shape-portifolio-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.shape-portifolio-2 {
+    position: relative;
+    bottom: 0;
+    left: 45%;
+    object-fit: cover;
+}
+
+.disable {
+    opacity: 0.3;
+    background-color: red;
+    cursor: not-allowed;
+    pointer-events: none;
+}

@@ -1,0 +1,100 @@
+
+
+.differences-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  min-height: 800px;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.differences-section h2 {
+  font-size: var(--title-size);
+  width: 300px;
+  margin-bottom: var(--margin-text);
+}
+
+.differences-section h3 {
+  font-size: var(--subtitle-size);
+  color: var(--cor-grey-1);
+  text-align: center;
+  font-weight: 300;
+  width: 70%;
+  margin-bottom: 80px;
+}
+
+.differences-card-control{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.differences-card {
+  background-image: url("../img/shapes/bg-differences.png");
+  width: 300px;
+  height: 350px;
+  background-size: cover;
+
+  display: flex;
+  align-items: end ;
+  flex-direction: column;
+}
+
+.differences-card h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color:var(--cor-dark) ;
+  margin-top: 30px;
+  width: 200px;
+  margin-right: 33px;
+}
+
+.differences-card p {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 150%;
+  width: 250px;
+  margin-right: 30px;
+  text-align: center;
+  margin-top: -60px;
+}
+
+.shape-differences-1,
+.shape-differences-2,
+.shape-differences-3 {
+  width: 315px;
+  position: absolute;
+  top: 2%;
+  left: -2%;
+  z-index: -1;
+}
+
+.shape-differences-2 {
+  left: 33%;
+  z-index: -1;
+}
+
+.shape-differences-3 {
+  left: 68%;
+  z-index: -1;
+}
+
+.differences-element-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.differences-element-2 {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  z-index: -1;
+}
